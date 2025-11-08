@@ -21,7 +21,7 @@ T|female|mild|Welcher Kuss-Stil magst du am liebsten?
 T|both|mild|Beschreibe deine Strategie beim flirten.
 T|female|mild|Welches Outfit fühlst du dich am sexiesten?
 T|both|mild|Hast du einen Crush auf jemanden Berühmten?
-T|female|mild|Welcher Tanzstil findest du erotisch?
+T|both|mild|Welcher Tanzstil findest du erotisch?
 T|male|mild|Alte Frage: Boobs or Butt?
 T|female|mild|Trägst du auf Dates mehr Make-up als sonst?
 T|both|mild|Was ist dein Lieblingsort für ein erstes Date?
@@ -43,7 +43,7 @@ D|female|mild|Mache für 10 Sekunden deine beste Impression eines Bauchtanzes.
 D|male|mild|Wieviele Arten von Liegestützen kannst du? Lass dich anfeuern!
 D|both|mild|Streichele deinen eigenen Arm verführerisch.
 D|male|mild|Flirte nur mit Mimik.
-D|male|mild|Trage so viele Mitspieler wie du kannst. 
+D|male|mild|Trage so viele Mitspieler auf einmal wie du kannst. 
 D|both|mild|Du darfst dich bis du wieder dran bist nicht bewegen.
 D|both|mild|Imitiere wie du jemanden im Club antanzst.
 D|female|mild|Sag etwas Verführerisches mit tiefer Stimme.
@@ -61,9 +61,8 @@ D|both|mild|Lass dir von einer Person deiner Wahl mit Kulli ein Tattoo auf den A
 
 # --- WILD ---
 # TRUTH (T)
-T|both|wild|Woran denkst du beim Küssen meistens?
-T|both|wild|Was bringt dich sofort in Flirtstimmung?
-T|both|wild|Was war die aufregendste Situation, in der du jemanden geküsst hast?
+T|both|wild|Küssen oder kuscheln?
+T|both|wild|Was bringt dich sofort in Stimmung?
 T|both|wild|Welcher Körperteil ist deiner Meinung nach unterschätzt sexy?
 T|both|wild|Hast du eine Fantasie, die du noch nie erzählt hast?
 T|both|wild|Was reizt dich mehr: Dominant sein oder sich dominiert werden?
@@ -76,10 +75,9 @@ T|female|wild|Welchen Teil deines Körpers lässt du dir gerne massieren?
 T|male|wild|Hast du schon mal eine Frau mit einem Kompliment rumgekriegt?
 T|both|wild|Was ist dein peinlichstes Sex-Erlebnis?
 T|female|wild|Hast du schon mal sexy Unterwäsche getragen, um jemanden zu beeindrucken?
-T|male|wild|Welche Fantasie hast du mit zwei Frauen?
-T|both|wild|Hast du schon mal einen erotischen Traum gehabt?
+T|male|wild|Welche Fantasie hast du bei einem Dreier?
+T|both|wild|Hast du erotische Träume? Erinnerst du dich?
 T|female|wild|Was ist das Heißeste, das du je getragen hast?
-T|male|wild|Hast du schon mal jemanden nackt gesehen, den du mochtest?
 T|both|wild|Welche Stelle am Körper ist deine Schwachstelle?
 T|female|wild|Warst du schon in einem Strip Club? Würdest du sonst gerne?
 T|male|wild|Was würdest du in einem Dreier ausprobieren?
@@ -90,23 +88,21 @@ T|both|wild|Was ist dein peinlichster Flirt-Missgeschick?
 T|female|wild|Welche Toys hast du schonmal ausprobiert?
 T|male|wild|Welche Position findest du am heißesten?
 T|both|wild|Hast du schon mal jemanden beim Duschen überrascht?
-T|female|wild|Was ist dein Lieblingserotisches Spiel?
+T|female|wild|Was ist dein Lieblingserotisches Rollenspiel?
 
 # DARE (D)
-D|both|wild|Lass dir die Augen verbinden und errate, wer dich an der Hand berührt.
+D|both|wild|Lass dir die Augen verbinden und errate, wer dich am Körper berührt.
 D|both|wild|Sag einer Person, was du an ihr physisch am attraktivsten findest.
 D|both|wild|Zieh zwei Kleidungsstücke aus.
 D|both|mild|Jeder hat zwei Minuten ein sexy Bild auf seinem Handy zu suchen. Most Sexy gewinnt!
 D|both|wild|Nimm drei Schlucke aus deinem Getränk.
-D|both|wild|Lass dich von jemandem deiner Wahl von hinten umarmen.
+D|both|wild|Lass dich von der Person rechts von dir von hinten umarmen.
 D|both|wild|Lehne dich nah an die Person links von dir und flüstere ihr ein Kompliment ins Ohr.
 D|male|wild|Die anderen Spieler dürfen dir durch die Haare wuscheln. 
-D|both|wild|Wähle jemanden aus – diese Person darf dir sagen, wo du ihn/sie leicht berührst (nur PG-Bereiche!).
 D|female|wild|Zieh der Person links von dir ein Kleidungsstück mit dem Mund aus.
-D|both|wild|Stelle dich hinter jemanden und umarme ihn/sie sanft von hinten für 10 Sekunden.
 D|both|wild|Halte das Gesicht einer Person in deinen Händen und schaue ihr 5 Sekunden in die Augen.
 D|both|wild|Küsse die Hand der Person rechts von dir.
-D|female|wild|Zieh ein Kleidungsstück aus und lass es 2 Runden weg.
+D|female|wild|Zieh ein Kleidungsstück aus.
 D|male|wild|Massiere die Schultern einer Frau für 20 Sekunden.
 D|both|wild|Deine Mitspieler setzen sich auf deine Hände bis du wieder dran bist.
 D|both|wild|Streichele den Arm der Person gegenüber langsam.
@@ -115,75 +111,67 @@ D|both|wild|Nenne alle Ozeane. Für jeden den du vergisst, zieh ein Kleidungsst�
 D|female|wild|Tanze mit einer anderen Frau so verführerisch wie ihr euch traut. 
 D|female|wild|Zeig deine Beine verführerisch.
 D|both|wild|Zieh zwei Kleidungsstücke aus.
+D|male|wild|Öffne einer zufälligen Person alle Knöpfe und Reißverschlüsse.
 D|male|wild|Küsse deine Mitspieler auf die Wange.
-D|male|wild|Zieh der Person links von dir ein Kleidungsstück mit dem Mund aus.
-D|both|wild|Halte Händchen mit zwei Personen gleichzeitig.
-D|female|wild|Streichele deinen eigenen Oberschenkel.
+D|male|wild|Zieh der Person rechts von dir ein Kleidungsstück mit den Füßen aus.
+D|female|wild|Streichele sinnlich über deinen eigenen Körper.
 D|male|wild|Gib einer Frau einen sanften Kuss auf die Stirn.
 D|both|wild|Imitiere einen erotischen Tanzschritt.
 D|female|wild|Zieh Socken aus und lass dir die Füße massieren.
 D|male|wild|Zeig übertrieben deine Muskeln.
 D|both|wild|Kitzle jemanden bis er/sie lacht.
-D|female|wild|Zeig deine verführerischste Pise
+D|female|wild|Zeig deine verführerischste Pose.
 D|both|wild|Streichele den Nacken der Person links.
 D|both|wild|Zieh zwei Kleidungsstücke aus.
 
 
 # --- CRAZY ---
 # TRUTH (T)
-T|both|crazy|Hast du schonmal mit Haushaltsgegenständen masturbiert?
-T|male|crazy|Was ist das Kühnste, was du getan hast, um jemanden zu beeindrucken?
-T|female|crazy|Welche Situation hat dich am stärksten verführt?
-T|both|crazy|Wann hast du das letzte Mal mastubiert? Gib Details!
-T|both|crazy|Welche Situation hat dich bisher am meisten Überwindung gekostet – aber war es wert?
+T|both|crazy|An welchen Orten habt du schon masturbiert? Meiste Orte gewinnt!
+T|female|crazy|Was bringt dich am einfachsten zum Orgasmus?
+T|both|crazy|Was ist die weirdeste Stellung die du je ausprobiert hast?
 T|both|crazy|Was würdest du tun, wenn du wüsstest, dass es keine Konsequenzen gäbe?
 T|both|crazy|Wann hast du zuletzt bewusst jemanden verführt?
+T|both|crazy|Findest du die Vorstellung heiß jemandem beim Sex zuzuschauen?
 T|both|crazy|Erzähle von deinem verrücktesten Sex-Abenteuer.
 T|female|crazy|Hast du schon mal einen Orgasmus in der Öffentlichkeit gehabt?
-T|male|crazy|Welche intime Stelle lässt du dir gerne lecken?
+T|female|crazy|Welche intime Stelle lässt du dir gerne lecken?
+T|female|crazy|Wie masturbierst du? Zeige deine Technik
 T|both|crazy|Was würdest du in einem Dreier als Erstes tun?
 T|female|crazy|Hast du schon mal Nacktfotos versendet?
-T|male|crazy|Erzähle von einem Mal, wo du erwischt wurdest beim Masturbieren.
+T|male|crazy|Erzähle von einem Mal, wo du erwischt wurdest beim Sex/Masturbieren.
 T|both|crazy|Welcher Fetisch hast du, den du ausleben willst?
 T|female|crazy|Hast du schon mal eine andere Frau intim berührt?
 T|male|crazy|Was ist das Extremste, das du im Bett gemacht hast?
 T|both|crazy|Hast du schon mal Bondage ausprobiert?
+T|both|crazy|Wann hast du das letzte Mal mastubiert? Gib Details!
 T|female|crazy|Welchen Körperteil zeigst du am liebsten nackt?
-T|male|crazy|Hast du schon mal einen Dreier gehabt?
 T|both|crazy|Erzähle von deiner heißesten Rollenspiel Fantasie.
 T|female|crazy|Hast du schon mal anal ausprobiert?
-T|male|crazy|Welche Frau würdest du gerne dominieren?
 T|both|crazy|Was ist dein verrücktester Orgasmus-Moment?
+T|male|crazy|Wie masturbierst du? Zeige deine Technik
 T|female|crazy|Hast du schon mal Squirting erlebt?
 T|male|crazy|Erzähle von einem Mal, wo du oral verwöhnt wurdest.
+T|both|crazy|Hast du schonmal mit Haushaltsgegenständen masturbiert?
 T|both|crazy|Welche Sextoy-Idee turnt dich an?
 T|female|crazy|Hast du schon mal in der Gruppe masturbiert?
 
 # DARE (D)
-D|both|crazy|Wähle jemanden, der dir für 15 Sekunden ins Ohr flüstert, was er/sie an dir heiß findet.
-D|both|crazy|Stell dich vor eine Person deiner Wahl und sag: „Ich vertraue dir – los!“ und sie darf dir eine harmlose Körperpose vorgeben.
-D|both|crazy|Wähle jemanden – ihr nähert eure Stirn aneinander und haltet still (5 Sekunden).
-D|both|crazy|Setz dich eng an eine Person deiner Wahl – Knie oder Oberschenkel müssen sich berühren.
-D|both|crazy|Wähle jemanden – diese Person darf dir eine Pose geben, die du 8 Sekunden hältst.
-D|both|crazy|Zieh dich bis auf die Unterwäsche aus für eine Runde.
-D|female|crazy|Gib einem Mann einen vollen Lapdance für 30 Sekunden.
-D|male|crazy|Küsse beide Frauen leidenschaftlich auf den Mund.
-D|both|crazy|Streichele die Innenseite der Oberschenkel der Person gegenüber.
-D|female|crazy|Lass dich von dem Mann zwischen den Beinen massieren (über Unterwäsche).
-D|male|crazy|Berühre die Brüste einer Frau sanft.
-D|both|crazy|Tanzt in Unterwäsche mit der Gruppe.
-D|female|crazy|Küsse die andere Frau auf den Hals.
-D|male|crazy|Lass die Frauen dich überall berühren.
-D|both|crazy|Spiele ein erotisches Rollenspiel für 1 Minute.
-D|female|crazy|Zeig deinen BH oder Slip kurz.
-D|male|crazy|Massiere intime Stellen einer Frau.
-D|both|crazy|Berühre dich selbst verführerisch vor allen.
-D|female|crazy|Gib oralen Kuss-Vorgeschmack (auf Hand oder so).
-D|female|crazy|Küsse eine andere Frau deiner Wahl sinnlich für 20 Sekunden.
-D|male|crazy|Dominiere eine Frau spielerisch.
-D|both|crazy|Streichele Brüste oder Genitalien leicht (über Kleidung).
+D|both|crazy|Du spielst ab jetzt "Oben ohne" weiter.
 D|female|crazy|Zeige den anderen wie du gerne an den Brüsten angefasst wirst.
-D|male|crazy|Lass dich von Frauen oral berühren (simuliert).
-D|both|crazy|Teilt einen Gruppenkuss.
-D|female|crazy|Verwöhne dich selbst für 10 Sekunden.
+D|both|crazy|Zieh dich bis auf die Unterwäsche aus.
+D|female|crazy|Gib einer Person des anderen Geschlechts einen vollen Lapdance für 30 Sekunden.
+D|both|crazy|Streichele die Innenseite der Oberschenkel der Person gegenüber.
+D|both|crazy|Lass dich mit Augenbinde von den anderen Spielern intim massieren (über Unterwäsche).
+D|female|crazy|Greife einem männlichen spiele in die Hose und ertaste was er zu bieten hat.
+D|male|crazy|Massiere die Brüste einer zufälligen Mitspielerin.
+D|female|crazy|Flashe ein noch angezogenes Körperteil für die restlichen Spieler.
+D|male|crazy|Massiere jedem Mitspieler ein Körperteil ihrer Wahl für 20 Sekunden.
+D|both|crazy|Berühre dich selbst verführerisch vor allen.
+D|both|crazy|Zieh dich bis auf die Unterwäsche aus.
+D|both|crazy|Lass dich mit Augenbinde von den anderen Spielern intim massieren (über Unterwäsche).
+D|female|crazy|Küsse eine andere Frau deiner Wahl sinnlich für 20 Sekunden.
+D|both|crazy|Streichele Brüste oder Genitalien leicht (über Kleidung).
+D|female|crazy|Verwöhne dich selbst für 30 Sekunden.
+
 
