@@ -92,6 +92,7 @@ T|female|wild|Was ist dein Lieblingserotisches Rollenspiel?
 
 # DARE (D)
 D|both|wild|Lass dir die Augen verbinden und errate, wer dich am Körper berührt.
+D|both|wild|Jeder tauscht ein Kleidungsstück eins nach links.
 D|both|wild|Sag einer Person, was du an ihr physisch am attraktivsten findest.
 D|both|wild|Zieh zwei Kleidungsstücke aus.
 D|both|mild|Jeder hat zwei Minuten ein sexy Bild auf seinem Handy zu suchen. Most Sexy gewinnt!
@@ -102,24 +103,30 @@ D|male|wild|Die anderen Spieler dürfen dir durch die Haare wuscheln.
 D|female|wild|Zieh der Person links von dir ein Kleidungsstück mit dem Mund aus.
 D|both|wild|Halte das Gesicht einer Person in deinen Händen und schaue ihr 5 Sekunden in die Augen.
 D|both|wild|Küsse die Hand der Person rechts von dir.
+D|both|wild|Lass dich von beiden Seiten von zwei Mitspielern eng umarmen. 
 D|female|wild|Zieh ein Kleidungsstück aus.
-D|male|wild|Massiere die Schultern einer Frau für 20 Sekunden.
+D|male|wild|Massiere die Schultern einer Frau für 30 Sekunden.
 D|both|wild|Deine Mitspieler setzen sich auf deine Hände bis du wieder dran bist.
-D|both|wild|Streichele den Arm der Person gegenüber langsam.
+D|both|wild|Streichele einmal langsam über den Körper einer zufälligen Person, von ganz oben bis ganz unten.
 D|female|wild|Gib einem Mann einen sexy Blick und lächle.
+D|both|wild|Jeder tauscht ein Kleidungsstück eins nach links.
 D|both|wild|Nenne alle Ozeane. Für jeden den du vergisst, zieh ein Kleidungsstück aus.
 D|female|wild|Tanze mit einer anderen Frau so verführerisch wie ihr euch traut. 
 D|female|wild|Zeig deine Beine verführerisch.
+D|both|wild|Trinke dein aktuelles Getränk aus.
 D|both|wild|Zieh zwei Kleidungsstücke aus.
 D|male|wild|Öffne einer zufälligen Person alle Knöpfe und Reißverschlüsse.
 D|male|wild|Küsse deine Mitspieler auf die Wange.
 D|male|wild|Zieh der Person rechts von dir ein Kleidungsstück mit den Füßen aus.
+D|both|wild|Stelle mit einer zufälligen Person deine drei Lieblingsstellungen nach (angezogen).
 D|female|wild|Streichele sinnlich über deinen eigenen Körper.
 D|male|wild|Gib einer Frau einen sanften Kuss auf die Stirn.
-D|both|wild|Imitiere einen erotischen Tanzschritt.
+D|both|wild|Zieh dich bis auf die Unterwäsche aus.
 D|female|wild|Zieh Socken aus und lass dir die Füße massieren.
 D|male|wild|Zeig übertrieben deine Muskeln.
+D|female|wild|Lass dir von einer zufälligen Person drei Klapse auf den Hintern geben.
 D|both|wild|Kitzle jemanden bis er/sie lacht.
+D|both|wild|Eine zufällige Person bekommt die Hände auf den Rücken, du gibst ihr trinken. Ihr habt beide die Augen zu.
 D|female|wild|Zeig deine verführerischste Pose.
 D|both|wild|Streichele den Nacken der Person links.
 D|both|wild|Zieh zwei Kleidungsstücke aus.
@@ -155,23 +162,27 @@ T|male|crazy|Erzähle von einem Mal, wo du oral verwöhnt wurdest.
 T|both|crazy|Hast du schonmal mit Haushaltsgegenständen masturbiert?
 T|both|crazy|Welche Sextoy-Idee turnt dich an?
 T|female|crazy|Hast du schon mal in der Gruppe masturbiert?
+D|female|crazy|Wähle ein Sexspielzeug aus, das du heute noch gerne probieren würdest.
 
 # DARE (D)
 D|both|crazy|Du spielst ab jetzt "Oben ohne" weiter.
 D|female|crazy|Zeige den anderen wie du gerne an den Brüsten angefasst wirst.
-D|both|crazy|Zieh dich bis auf die Unterwäsche aus.
 D|female|crazy|Gib einer Person des anderen Geschlechts einen vollen Lapdance für 30 Sekunden.
 D|both|crazy|Streichele die Innenseite der Oberschenkel der Person gegenüber.
+D|female|crazy|Pose für ein erotisches Nude-Picture (ohne es zu fotografieren).
 D|both|crazy|Lass dich mit Augenbinde von den anderen Spielern intim massieren (über Unterwäsche).
-D|female|crazy|Greife einem männlichen spiele in die Hose und ertaste was er zu bieten hat.
+D|female|crazy|Greife einem männlichen Spieler in die Hose und ertaste was er zu bieten hat.
 D|male|crazy|Massiere die Brüste einer zufälligen Mitspielerin.
+D|male|crazy|Du versteinerst und bist blind - die anderen Mitspielerinnen dürfen dich zwei Minuten anfassen, wo sie wollen.
+D|female|crazy|Lass eine zufällige Person mit deinen Nippeln spielen.
 D|female|crazy|Flashe ein noch angezogenes Körperteil für die restlichen Spieler.
 D|male|crazy|Massiere jedem Mitspieler ein Körperteil ihrer Wahl für 20 Sekunden.
 D|both|crazy|Berühre dich selbst verführerisch vor allen.
-D|both|crazy|Zieh dich bis auf die Unterwäsche aus.
+D|both|crazy|Du spielst ab jetzt nackt weiter.
 D|both|crazy|Lass dich mit Augenbinde von den anderen Spielern intim massieren (über Unterwäsche).
 D|female|crazy|Küsse eine andere Frau deiner Wahl sinnlich für 20 Sekunden.
-D|both|crazy|Streichele Brüste oder Genitalien leicht (über Kleidung).
+D|male|crazy|Streichele Brüste und/oder Genitalien einer anderen Person (über Kleidung).
 D|female|crazy|Verwöhne dich selbst für 30 Sekunden.
+
 
 
