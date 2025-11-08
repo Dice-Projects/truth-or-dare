@@ -27,10 +27,18 @@
 </select>
 <button id="addPlayer">Hinzufügen</button>
 </div>
-<div class="row" style="margin-top:10px">
-<button id="startGame" class="primary">Spiel starten</button>
+<div class="row" style="margin-top:8px;align-items:center">
+  <label class="small" for="globalDifficulty" style="margin-right:8px">Schwierigkeit vorgeben:</label>
+  <select id="globalDifficulty">
+    <option value="any">Beliebig (mix)</option>
+    <option value="mild">Mild</option>
+    <option value="wild">Wild</option>
+    <option value="crazy">Crazy</option>
+  </select>
 </div>
-</section>
+<div class="row" style="margin-top:10px">
+  <button id="startGame" class="primary">Spiel starten</button>
+</div></section>
 
 
 <section id="game" class="card hidden">
