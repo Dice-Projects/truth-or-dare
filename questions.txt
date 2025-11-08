@@ -1,67 +1,59 @@
-# Format: T/D|male/female/both|mild/wild/crazy|Text
-# Jede Zeile ist ein Eintrag. Kommentarzeilen beginnen mit '#'.
-# Beispielzeilen (Platzhalter, nicht‑grafisch):
-# Format: T/D|male/female/both|mild/wild/crazy|Text
+# --- MILD ---
+# TRUTH (T)
 T|both|mild|Was war dein letzter richtiger Crush?
-D|both|mild|Flüstere der Person gegenüber ein Kompliment ins Ohr.
 T|both|mild|Was macht dich bei einer Person sofort neugierig?
-D|both|mild|Halte für 10 Sekunden intensiven Augenkontakt mit jemandem deiner Wahl.
 T|both|mild|Erzähle etwas, das dich bei der letzten Romanze überrascht hat.
-D|both|mild|Lass eine Person deiner Wahl deine Hände halten, bis du wieder dran bist.
-
-
-# --- WILD ---
-T|both|wild|Woran denkst du beim Küssen meistens?
-D|both|wild|Lass dir die Augen verbinden und errate, wer dich an der Hand berührt.
-T|both|wild|Was bringt dich sofort in Flirtstimmung?
-D|both|wild|Sag einer Person, was du an ihr physisch am attraktivsten findest.
-T|both|wild|Was war die aufregendste Situation, in der du jemanden geküsst hast?
-D|both|wild|Lass dich von jemandem deiner Wahl von hinten umarmen.
-
-
-# --- CRAZY ---
-T|both|crazy|Was war die waghalsigste Entscheidung deines Liebeslebens?
-D|both|crazy|Wähle jemanden, der dir für 15 Sekunden ins Ohr flüstert, was er/sie an dir heiß findet.
-T|male|crazy|Was ist das Kühnste, was du getan hast, um jemanden zu beeindrucken?
-T|female|crazy|Welche Situation hat dich am stärksten verführt?
-D|both|crazy|Stell dich vor eine Person deiner Wahl und sag: „Ich vertraue dir – los!“ und sie darf dir eine harmlose Körperpose vorgeben.
-
-
-
-
-# --- MORE MILD (SPICY / INTIMACY) ---
 T|both|mild|Welche Art von Berührung lässt dich sofort entspannen?
-D|both|mild|Lege sanft deine Hand auf den Oberschenkel der Person rechts von dir (5 Sekunden).
 T|both|mild|Welche kleine Geste macht dich schwach?
-D|both|mild|Sag der Person gegenüber, welches Körperteil du an ihr schön findest.
 T|both|mild|Welche Art von Kompliment trifft dich am tiefsten?
-D|both|mild|Schreibe einer Person eine kurze, charmante Nachricht auf ihr Handy (sie darf sie vorlesen).
 T|both|mild|Welches Date hat dich richtig nervös gemacht?
+
+# DARE (D)
+D|both|mild|Flüstere der Person gegenüber ein Kompliment ins Ohr.
+D|both|mild|Halte für 10 Sekunden intensiven Augenkontakt mit jemandem deiner Wahl.
+D|both|mild|Lass eine Person deiner Wahl deine Hände halten, bis du wieder dran bist.
+D|both|mild|Lege sanft deine Hand auf den Oberschenkel der Person rechts von dir (5 Sekunden).
+D|both|mild|Sag der Person gegenüber, welches Körperteil du an ihr schön findest.
+D|both|mild|Schreibe einer Person eine kurze, charmante Nachricht auf ihr Handy (sie darf sie vorlesen).
 D|both|mild|Wähle jemanden aus und haltet für 10 Sekunden beide Hände ineinander.
 
 
-# --- MORE WILD (CLOSENESS, BODY FOCUS) ---
+# --- WILD ---
+# TRUTH (T)
+T|both|wild|Woran denkst du beim Küssen meistens?
+T|both|wild|Was bringt dich sofort in Flirtstimmung?
+T|both|wild|Was war die aufregendste Situation, in der du jemanden geküsst hast?
 T|both|wild|Welcher Körperteil ist deiner Meinung nach unterschätzt sexy?
-D|both|wild|Lehne dich nah an die Person links von dir und flüstere ihr ein Kompliment ins Ohr.
 T|both|wild|Hast du eine Fantasie, die du noch nie erzählt hast?
-D|both|wild|Lass jemanden deiner Wahl deine Haare berühren oder durchwuscheln.
 T|both|wild|Was reizt dich mehr: Dominant sein oder sich fallen lassen?
-D|both|wild|Wähle jemanden aus – diese Person darf dir sagen, wo du ihn/sie leicht berührst (nur PG-Bereiche!).
 T|both|wild|Bei welcher Art Berührung bekommst du Gänsehaut?
+T|both|wild|Was war der intensivste Moment, bevor etwas passiert ist – aber nicht passiert ist?
+
+# DARE (D)
+D|both|wild|Lass dir die Augen verbinden und errate, wer dich an der Hand berührt.
+D|both|wild|Sag einer Person, was du an ihr physisch am attraktivsten findest.
+D|both|wild|Lass dich von jemandem deiner Wahl von hinten umarmen.
+D|both|wild|Lehne dich nah an die Person links von dir und flüstere ihr ein Kompliment ins Ohr.
+D|both|wild|Lass jemanden deiner Wahl deine Haare berühren oder durchwuscheln.
+D|both|wild|Wähle jemanden aus – diese Person darf dir sagen, wo du ihn/sie leicht berührst (nur PG-Bereiche!).
 D|both|wild|Stelle dich hinter jemanden und umarme ihn/sie sanft von hinten für 10 Sekunden.
-T|both|wild|Was war der intensiivste Moment, bevor etwas passiert ist – aber nicht passiert ist?
 D|both|wild|Halte das Gesicht einer Person in deinen Händen und schaue ihr 5 Sekunden in die Augen.
 
 
-# --- MORE CRAZY (BOLD / COURAGEOUS, NO EXPLICIT CONTENT) ---
+# --- CRAZY ---
+# TRUTH (T)
+T|both|crazy|Was war die waghalsigste Entscheidung deines Liebeslebens?
+T|male|crazy|Was ist das Kühnste, was du getan hast, um jemanden zu beeindrucken?
+T|female|crazy|Welche Situation hat dich am stärksten verführt?
 T|both|crazy|Welche Fantasie hält dich nachts wach?
-D|both|crazy|Wähle jemanden – ihr nähert eure Stirn aneinander und haltet still (5 Sekunden).
 T|both|crazy|Welche Situation hat dich bisher am meisten Überwindung gekostet – aber war es wert?
-D|both|crazy|Lass eine Person deiner Wahl deinen Puls fühlen (am Hals oder Handgelenk – du entscheidest).
 T|both|crazy|Was würdest du tun, wenn du wüsstest, dass es keine Konsequenzen gäbe?
-D|both|crazy|Setz dich eng an eine Person deiner Wahl – Knie oder Oberschenkel müssen sich berühren.
 T|both|crazy|Wann hast du zuletzt bewusst jemanden verführt?
+
+# DARE (D)
+D|both|crazy|Wähle jemanden, der dir für 15 Sekunden ins Ohr flüstert, was er/sie an dir heiß findet.
+D|both|crazy|Stell dich vor eine Person deiner Wahl und sag: „Ich vertraue dir – los!“ und sie darf dir eine harmlose Körperpose vorgeben.
+D|both|crazy|Wähle jemanden – ihr nähert eure Stirn aneinander und haltet still (5 Sekunden).
+D|both|crazy|Lass eine Person deiner Wahl deinen Puls fühlen (am Hals oder Handgelenk – du entscheidest).
+D|both|crazy|Setz dich eng an eine Person deiner Wahl – Knie oder Oberschenkel müssen sich berühren.
 D|both|crazy|Wähle jemanden – diese Person darf dir eine Pose geben, die du 8 Sekunden hältst.
-# ---
-# Fügt hier beliebig viele weitere Zeilen im gezeigten Format hinzu.
-# Tipp: Wenn ihr sehr explizite Aufgaben/Fragen einfügen wollt, bearbeitet die Datei lokal oder im privaten Branch und commitet sie nur, wenn ihr mit der Sichtbarkeit einverstanden seid.
