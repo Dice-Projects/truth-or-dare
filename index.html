@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Truth or Dare</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+<header class="hero">
+<h1>Truth or Dare</h1>
+<p class="tag">Party‑Edition — lokal & PWA‑fähig</p>
+</header>
+
+
+<section id="setup" class="card">
+<h2>Spieler hinzufügen</h2>
+<p class="small">Mindestens 3 Spieler</p>
+<div id="playersList" class="playersList"></div>
+<div class="row">
+<input id="playerName" placeholder="Name" />
+<select id="playerGender">
+<option value="male">Männlich</option>
+<option value="female">Weiblich</option>
+</select>
+<button id="addPlayer">Hinzufügen</button>
+</div>
+<div class="row" style="margin-top:10px">
+<button id="startGame" class="primary">Spiel starten</button>
+</div>
+</section>
+
+
+<section id="game" class="card hidden">
+<h2 id="turnLabel">(Name), du bist dran.</h2>
+<div id="controls" class="row center">
+<button id="truthBtn" class="big">Wahrheit</button>
+<button id="dareBtn" class="big">Pflicht</button>
+</div>
+<div id="questionBox" class="questionBox">Wähle Truth oder Dare</div>
+<div class="row" style="margin-top:12px">
+<button id="completeBtn">Erledigt (Nächster)</button>
+<button id="skipBtn">Überspringen</button>
+<button id="restartBtn">Neustart</button>
+</div>
+<p class="small">Verbleibende Fragen: <span id="remainingCount">0</span></p>
+</section>
+
+
+<section id="admin" class="card">
+<h3>Fragen & Einstellungen</h3>
+<p class="small">Die Fragen liegen in <code>questions.txt</code> im Repo. Format: <code>T/D|male/female/both|mild/wild/crazy|Text</code></p>
+<p class="small">Eigenes Hinzufügen möglich (in‑App wird nur lokal gespeichert).</p>
+<button id="openEditor">In‑App Frageneditor (lokal)</button>
+<div id="editor" class="hidden">
+<textarea id="editorArea" placeholder="Eine Frage pro Zeile: T|both|mild|Beispiel..." rows="8"></textarea>
+<div class="row">
+<button id="loadEditor">Laden</button>
+<button id="saveEditor">Speichern (localStorage)</button>
+</div>
+</div>
+</section>
+
+
+<footer class="foot card small">Erstellt für privaten Gebrauch. Inhalte in <code>questions.txt</code> sind Platzhalter — siehe README.</footer>
+</main>
+
+
+<script src="script.js"></script>
+<script>
+if('serviceWorker' in navigator){
+navigator.serviceWorker.register('service-worker.js').catch(()=>console.warn('SW failed'));
+}
+</script>
+</body>
+</html>

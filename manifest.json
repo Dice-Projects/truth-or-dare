@@ -1,0 +1,8 @@
+{
+"name": "Truth or Dare",
+"short_name": "ToD",
+"start_url": ".",
+"display": "standalone",
+"background_color": "#0f0f17",
+"theme_color": "#ff3cac"
+}
