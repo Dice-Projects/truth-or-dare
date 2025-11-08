@@ -1,4 +1,4 @@
-// Ersetze deine script.js komplett mit diesem Inhalt
+// Saubere, robuste script.js — UTF-8 ohne BOM erforderlich
 document.addEventListener('DOMContentLoaded', () => {
   console.log('TOD: DOM geladen');
 
@@ -49,8 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Parser
   function parseLines(text){
-    // remove BOM if present
-    if(text && text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+    if(text && text.charCodeAt(0) === 0xFEFF) text = text.slice(1); // remove BOM if present
     const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(l=>l && !l.startsWith('#'));
     const parsed = lines.map((line, idx)=>{
       const parts = line.split('|');
@@ -104,7 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if(players.length < MIN_PLAYERS) return alert('Mindestens 3 Spieler notwendig');
       chosenDifficulty = (globalDifficultySelect ? globalDifficultySelect.value : 'any') || 'any';
       console.log('Gewählte Schwierigkeit vor Start:', chosenDifficulty);
-      // hide setup, show game
       if(setupSection) setupSection.classList.add('hidden');
       if(gameSection) gameSection.classList.remove('hidden');
       currentIndex = 0; renderTurn();
@@ -135,7 +133,6 @@ document.addEventListener('DOMContentLoaded', () => {
         totalQuestions: questions.length,
         usedCount: used.size,
       });
-      // zusätzliche Debug-Informationen
       const possible = questions.filter(q => (q.gender==='both' || q.gender===playerGender) && (diff==='any' || q.diff===diff) && (wantType ? (wantType==='T'? q.type==='T' : q.type==='D') : true));
       console.log(' mögliche gesamt (ohne used filter):', possible.length, possible.slice(0,6));
       return null;
@@ -147,7 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
   function handleChoice(type){
     const p = players[currentIndex];
     if(!p) return alert('Kein Spieler ausgewählt');
-    // use global chosenDifficulty selected at start
     const diff = chosenDifficulty || 'any';
     const q = pickQuestion(p.gender, diff, type);
     if(!q){ questionBox && (questionBox.textContent = 'Keine passende Frage/Aufgabe mehr für diese Auswahl.'); return; }
@@ -183,28 +179,67 @@ document.addEventListener('DOMContentLoaded', () => {
   // Init
   loadUsed(); loadPlayers(); updatePlayersUI();
 
-  // Disable start until questions loaded
   if(startGameBtn) startGameBtn.disabled = true;
 
-  // Load questions
+  // --- Robust: fetch -> localStorage fallback -> file upload ---
+  function handleQuestionsLoadText(text){
+    try{
+      questions = parseLines(text || '');
+      questionsLoaded = true;
+      console.log('Fragen geladen (Quelle):', questions.length);
+      if(startGameBtn) startGameBtn.disabled = false;
+      remainingCount && (remainingCount.textContent = questions.length - (used.size||0));
+    } catch(e){
+      console.error('Fehler beim parsen der Fragen:', e);
+      questions = [];
+      questionsLoaded = false;
+      if(startGameBtn) startGameBtn.disabled = true;
+    }
+  }
+
   fetch('questions.txt').then(r=>{
-    if(!r.ok) throw new Error('questions.txt fetch failed: '+r.status);
+    if(!r.ok) throw new Error('fetch-not-ok: '+r.status);
     return r.text();
   }).then(t=>{
-    questions = parseLines(t);
-    questionsLoaded = true;
-    console.log('Fragen geladen:', questions.length);
-    if(startGameBtn) startGameBtn.disabled = false;
-    remainingCount && (remainingCount.textContent = questions.length - (used.size||0));
+    handleQuestionsLoadText(t);
   }).catch(e=>{
-    console.warn('questions.txt konnte nicht geladen werden:', e);
-    questions = [];
+    console.warn('questions.txt fetch failed (vermutlich file:// oder CORS). Versuche Fallbacks. Fehler:', e);
+    const localEditor = localStorage.getItem('tod_questions_editor');
+    if(localEditor){
+      console.log('Lade Fragen aus localStorage (tod_questions_editor).');
+      handleQuestionsLoadText(localEditor);
+      return;
+    }
     questionsLoaded = false;
     if(startGameBtn) startGameBtn.disabled = true;
-    alert('Fehler: Fragenliste konnte nicht geladen werden. Prüfe, ob questions.txt im Repo vorhanden ist und erreichbar ist (Network Tab).');
+    alert('Die Fragenliste konnte nicht automatisch geladen werden. Wenn du die Seite lokal per Datei öffnest, starte am besten einen lokalen Server (z. B. `python -m http.server 8000`) ODER lade die questions.txt manuell hoch.');
+    const fileLabel = document.createElement('div');
+    fileLabel.style.marginTop = '10px';
+    fileLabel.className = 'card';
+    fileLabel.innerHTML = '<strong>Lokale questions.txt hochladen</strong><div class="small">Wenn du die Seite ohne Server geöffnet hast, wähle hier deine questions.txt.</div>';
+    const fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.accept = '.txt,.csv';
+    fileInput.style.marginTop = '8px';
+    fileLabel.appendChild(fileInput);
+    const container = document.querySelector('.app') || document.body;
+    container.insertBefore(fileLabel, container.firstChild);
+
+    fileInput.addEventListener('change', (ev)=>{
+      const f = ev.target.files && ev.target.files[0];
+      if(!f) return;
+      const reader = new FileReader();
+      reader.onload = function(evt){
+        const txt = evt.target.result;
+        localStorage.setItem('tod_questions_editor', txt);
+        handleQuestionsLoadText(txt);
+        fileLabel.remove();
+        alert('Fragen geladen (vom lokalen File). Du kannst jetzt starten.');
+      };
+      reader.readAsText(f, 'utf-8');
+    });
   });
 
-  // restore UI if players present
   if(players.length>0) updatePlayersUI();
 
   console.log('TOD: Init abgeschlossen');
